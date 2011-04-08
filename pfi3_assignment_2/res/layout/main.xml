@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true" android:background="#330000">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="Input Tag" android:textColor="#ff0000" android:textSize="18dip"/>
+<EditText android:layout_width="match_parent" android:text="" android:layout_height="wrap_content" android:id="@+id/editText1" android:maxLength="32"></EditText>
+<TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Input Text"  android:textSize="18dip" android:textColor="#ff3333"></TextView>
+<EditText android:layout_width="match_parent" android:text="" android:id="@+id/editText2" android:layout_height="180dip" android:maxLength="256" android:gravity="top"></EditText>
+<FrameLayout android:id="@+id/frameLayout1" android:layout_width="match_parent" android:layout_height="wrap_content"></FrameLayout>
+<Button android:text="Submit" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="18dip"></Button>
+</LinearLayout>
