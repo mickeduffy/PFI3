@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true" android:background="#330000">
+    <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:textSize="18dip" android:textColor="#ff0000" android:layout_width="fill_parent" android:text="Login"></TextView>
+    <EditText android:text="" android:layout_height="wrap_content" android:id="@+id/EditText01" android:maxLength="32" android:layout_width="match_parent"></EditText>
+    <TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:textSize="18dip" android:textColor="#ff0000" android:layout_width="fill_parent" android:text="Password"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/EditText02" android:text="" android:maxLength="32" android:layout_width="match_parent" android:password="true"></EditText>
+<FrameLayout android:id="@+id/frameLayout1" android:layout_width="match_parent" android:layout_height="wrap_content"></FrameLayout>
+<Button android:text="Submit" android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="18dip"></Button>
+</LinearLayout>
