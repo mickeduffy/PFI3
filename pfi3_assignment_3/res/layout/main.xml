@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+    <TextView android:text="" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="50dip"></TextView>
+    <TextView android:text="THE END OF ALL MOLES" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+    <TextView android:text="" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="100dip"></TextView>
+    <Button android:autoText="true" android:id="@+id/button1" android:layout_height="wrap_content" android:text="BEGIN ANNIHILATION" android:fadingEdge="vertical" android:layout_width="wrap_content" android:gravity="center_horizontal" android:ellipsize="none" android:layout_gravity="center"></Button>
+
+</LinearLayout>
